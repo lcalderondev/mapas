@@ -2,57 +2,136 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>KmlFile</name>
-    <Style id="west_campus_style">
+    <Style id="icon-1899-0288D1-normal">
       <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
         <Icon>
-          <href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png
-          </href>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
       </IconStyle>
-      <BalloonStyle>
-        <text>$[video]</text>
-      </BalloonStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
     </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Placemark>
       <name>Google West Campus 1</name>
-      <styleUrl>#west_campus_style</styleUrl>
+      <description><![CDATA[<br><br>video: <iframe src="https://www.youtube.com/embed/ZE8ODPL2VPI" width="480" height="360" frameborder="0"></iframe><br><br>]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
       <ExtendedData>
         <Data name="video">
-          <value><![CDATA[<iframe width="480" height="360"
-            src="https://www.youtube.com/embed/ZE8ODPL2VPI" frameborder="0"
-            allowfullscreen></iframe><br><br>]]></value>
+          <value><![CDATA[<iframe src="https://www.youtube.com/embed/ZE8ODPL2VPI" width="480" height="360" frameborder="0"></iframe><br><br>]]></value>
         </Data>
       </ExtendedData>
       <Point>
-        <coordinates>-122.0914977709329,37.42390182131783,0</coordinates>
+        <coordinates>
+          -122.091498,37.423902,0
+        </coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <name>Google West Campus 2</name>
-      <styleUrl>#west_campus_style</styleUrl>
+      <description><![CDATA[<br><br>video: <iframe src="https://www.youtube.com/embed/nb4gvrNrDWw" width="480" height="360" frameborder="0"></iframe><br><br>]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
       <ExtendedData>
         <Data name="video">
-          <value><![CDATA[<iframe width="480" height="360"
-            src="https://www.youtube.com/embed/nb4gvrNrDWw" frameborder="0"
-            allowfullscreen></iframe><br><br>]]></value>
+          <value><![CDATA[<iframe src="https://www.youtube.com/embed/nb4gvrNrDWw" width="480" height="360" frameborder="0"></iframe><br><br>]]></value>
         </Data>
       </ExtendedData>
       <Point>
-        <coordinates>-122.0926995893311,37.42419403634421,0</coordinates>
+        <coordinates>
+          -122.0927,37.424194,0
+        </coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <name>Google West Campus 3</name>
-      <styleUrl>#west_campus_style</styleUrl>
+      <description><![CDATA[<br><br>video: <iframe src="https://www.youtube.com/embed/0hhiEjf7_NA" width="480" height="360" frameborder="0"></iframe><br><br>]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
       <ExtendedData>
         <Data name="video">
-          <value><![CDATA[<iframe width="480" height="360"
-            src="https://www.youtube.com/embed/0hhiEjf7_NA" frameborder="0"
-            allowfullscreen></iframe><br><br>]]></value>
+          <value><![CDATA[<iframe src="https://www.youtube.com/embed/0hhiEjf7_NA" width="480" height="360" frameborder="0"></iframe><br><br>]]></value>
         </Data>
       </ExtendedData>
       <Point>
-        <coordinates>-122.0922532985281,37.42301710721216,0</coordinates>
+        <coordinates>
+          -122.092253,37.423017,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hola mundo</name>
+      <description><![CDATA[hola<br><br>video: ]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="video">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -122.0942999,37.4225729,0
+        </coordinates>
       </Point>
     </Placemark>
   </Document>
